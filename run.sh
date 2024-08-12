@@ -8,6 +8,8 @@ echo "flask" > requirements.txt
 echo "requests" >> requirements.txt
 echo "numpy" >> requirements.txt
 echo "pandas" >> requirements.txt
+echo "pytest" >> requirements.txt
+echo "pytest-cov" >> requirements.txt
 
 # Tạo môi trường ảo
 python3 -m venv env
